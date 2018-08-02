@@ -1,0 +1,11 @@
+{
+    "id": "db",
+    "port": 8080,
+    "volumes": {
+        "data": "/data"
+    },
+    "healthCheck": {
+        "url": "localhost:8080"
+    },
+    "zeroDowntime": false
+}
